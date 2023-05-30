@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  frontend:
+    container_name: games-frontend
+    image: registry.fritsler.ru/games-frontend:${BUILD_VER}
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "${GAMES__FRONTEND_PORT}:4000"
