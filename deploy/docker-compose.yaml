@@ -8,4 +8,4 @@ services:
     env_file:
       - .env
     ports:
-      - "${GAMES__FRONTEND_PORT}:4000"
+      - "${GAMES__FRONTEND_PORT}:3000"
