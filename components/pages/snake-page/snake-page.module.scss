@@ -1,0 +1,16 @@
+.wrapper {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #444;
+}
+
+.brickGameWrapper {
+  max-height: 100%;
+  max-width: 100%;
+  padding: 20px;
+  display: flex;
+}
