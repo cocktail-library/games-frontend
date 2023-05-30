@@ -17,7 +17,8 @@ const defaultSnakeHeadPosition = {
 export const SnakePage: FC = () => {
   const [tick, setTick] = useState({ current: 0 })
   const [gameModel, setGameModel] = useState<SnakeGameModel | null>(null)
-  const [buttonHandlers, setButtonHandlers] = useState<Record<BrickGameButtons, () => void>>()
+  // todo move Record<BrickGameButtons, () => void> to type
+  const [buttonHandlers, setButtonHandlers] = useState<Partial<Record<BrickGameButtons, () => void>>>()
 
   useEffect(() => {
     const row: TileType[] = getArrayOf(MAX_COLUMN_COUNT).map(_ => TileType.EMPTY)

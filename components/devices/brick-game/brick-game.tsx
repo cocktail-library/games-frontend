@@ -6,7 +6,7 @@ import { BrickGameControls } from '@/components/devices/brick-game/components/co
 import { BrickGameButtons } from '@/components/devices/brick-game/types';
 
 interface Props {
-  buttonHandlers: Record<BrickGameButtons, () => void>;
+  buttonHandlers: Partial<Record<BrickGameButtons, () => void>>;
   matrix: boolean[][];
 }
 

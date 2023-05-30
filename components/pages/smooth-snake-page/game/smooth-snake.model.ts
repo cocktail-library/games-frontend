@@ -67,6 +67,6 @@ export class SmoothSnakeModel {
     if (Math.hypot(newPoint.x - this._snake[0].x, newPoint.y - this._snake[0].y) > APPLE_RADIUS) {
       return newPoint
     }
-    return
+    return this.getNewApplePosition()
   }
 }

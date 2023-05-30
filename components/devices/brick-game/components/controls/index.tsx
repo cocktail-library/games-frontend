@@ -3,7 +3,7 @@ import { BrickGameButtons } from '../../types';
 import styles from './styles.module.scss';
 
 interface Props {
-  buttonHandlers: Record<BrickGameButtons, () => void>
+  buttonHandlers: Partial<Record<BrickGameButtons, () => void>>
 }
 
 export const BrickGameControls: FC<Props> = ({ buttonHandlers }) => {

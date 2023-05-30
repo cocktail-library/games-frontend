@@ -7,7 +7,7 @@ import styles from '../snake-page.module.scss'
 
 interface Props {
   gameModel: SnakeGameModel | null;
-  buttonHandlers: Record<BrickGameButtons, () => void>;
+  buttonHandlers: Partial<Record<BrickGameButtons, () => void>>;
 }
 
 export const SnakeView: FC<Props> = ({ gameModel, buttonHandlers }) => {

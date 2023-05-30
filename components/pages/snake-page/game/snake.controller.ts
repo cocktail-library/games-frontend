@@ -20,5 +20,5 @@ export const getBrickGameButtonListeners = (gameModel: SnakeGameModel) => {
     [BrickGameButtons.DOWN]: () => gameModel.direction = Direction.DOWN,
     [BrickGameButtons.LEFT]: () => gameModel.direction = Direction.LEFT,
     [BrickGameButtons.RIGHT]: () => gameModel.direction = Direction.RIGHT,
-  } as  Record<BrickGameButtons, () => void>
+  } as  Partial<Record<BrickGameButtons, () => void>>
 }

@@ -10,7 +10,7 @@ interface Props {
 }
 
 export const Tile: FC<Props> = ({ type, distanceFromStart, maxDistance }) => {
-  const getStyleByDistance = (distanceFromStart: number | undefined, maxDistance: number | undefined) => {
+  const getStyleByDistance = (distanceFromStart: number | null, maxDistance: number | null) => {
     if (!distanceFromStart || !maxDistance || type !== TileType.SNAKE) {
       return {}
     }
