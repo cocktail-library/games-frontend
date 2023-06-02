@@ -1,6 +1,6 @@
 import { Direction } from '@/components/pages/snake-page/game/types'
 import { SnakeGameModel } from '@/components/pages/snake-page/game/snake.model'
-import { BrickGameButtons } from '@/components/devices/brick-game/types'
+import {BrickGameButtonHandlers, BrickGameButtons} from '@/components/devices/brick-game/types'
 
 export const MapKeyboardKeyToDirection: Record<string, Direction> = {
   ArrowUp: Direction.UP,
