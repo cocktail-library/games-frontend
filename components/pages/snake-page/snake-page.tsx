@@ -4,7 +4,11 @@ import { Direction, TileType } from '@/components/pages/snake-page/game/types'
 import { SnakeGameModel } from '@/components/pages/snake-page/game/snake.model'
 import { SnakeView } from '@/components/pages/snake-page/game/snake.view'
 import { getBrickGameButtonListeners, keyDownListener } from '@/components/pages/snake-page/game/snake.controller'
-import { BrickGameButtons, MAX_COLUMN_COUNT, MAX_ROW_COUNT } from '@/components/devices/brick-game/types'
+import {
+  BrickGameButtonHandlers,
+  MAX_COLUMN_COUNT,
+  MAX_ROW_COUNT
+} from '@/components/devices/brick-game/types'
 import styles from './snake-page.module.scss'
 
 const msPerFrame = 150
@@ -20,17 +24,15 @@ const field = getArrayOf(MAX_ROW_COUNT).map(() => [...row])
 export const SnakePage: FC = () => {
   const [tick, setTick] = useState({ current: 0 })
   const isPaused = useRef(false)
-  const [gameModel, setGameModel] = useState<SnakeGameModel | null>(null)
-  // todo move Record<BrickGameButtons, () => void> to type
-  const [buttonHandlers, setButtonHandlers] = useState<Partial<Record<BrickGameButtons, () => void>>>()
+  const gameModel = useRef<SnakeGameModel>()
+  const [buttonHandlers, setButtonHandlers] = useState<BrickGameButtonHandlers>()
 
   const togglePaused = () => {
     isPaused.current = !isPaused.current
   }
 
   const resetGameModel = () => {
-    const newGameModel = new SnakeGameModel(Direction.RIGHT, field, defaultSnakeHeadPosition)
-    setGameModel(newGameModel)
+    gameModel.current = new SnakeGameModel(Direction.RIGHT, field, defaultSnakeHeadPosition)
   }
 
   useEffect(() => {
@@ -38,7 +40,7 @@ export const SnakePage: FC = () => {
   }, [])
 
   useEffect(() => {
-    if (!gameModel) {
+    if (!gameModel.current) {
       return
     }
 
@@ -47,10 +49,10 @@ export const SnakePage: FC = () => {
         current: tick.current + 1,
       }))
     }, msPerFrame)
-    const listener = keyDownListener(gameModel)
+    const listener = keyDownListener(gameModel.current)
     window.addEventListener('keydown', listener)
     setButtonHandlers(
-      getBrickGameButtonListeners(gameModel, {
+      getBrickGameButtonListeners(gameModel.current, {
         onPause: togglePaused,
         onReset: resetGameModel,
       }),
@@ -64,17 +66,17 @@ export const SnakePage: FC = () => {
 
   useEffect(() => {
     if (!isPaused.current) {
-      gameModel?.proceedNextTick()
+      gameModel.current?.proceedNextTick()
     }
   }, [tick])
 
-  if (!gameModel || !buttonHandlers) {
+  if (!gameModel.current || !buttonHandlers) {
     return null
   }
 
   return (
     <div className={styles.wrapper}>
-      <SnakeView gameModel={gameModel} buttonHandlers={buttonHandlers} />
+      <SnakeView gameModel={gameModel.current} buttonHandlers={buttonHandlers} />
     </div>
   )
 }

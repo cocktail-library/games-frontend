@@ -1,9 +1,9 @@
 import React, { FC } from 'react'
-import { BrickGameButtons } from '../../types'
+import {BrickGameButtonHandlers, BrickGameButtons} from '../../types'
 import styles from './styles.module.scss'
 
 interface Props {
-  buttonHandlers: Partial<Record<BrickGameButtons, () => void>>;
+  buttonHandlers: BrickGameButtonHandlers;
 }
 
 export const BrickGameControls: FC<Props> = ({ buttonHandlers }) => {

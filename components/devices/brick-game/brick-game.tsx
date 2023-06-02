@@ -3,11 +3,11 @@ import { FC } from 'react'
 import { BrickGameShell } from './components/shell'
 import { BrickGameDisplay } from './components/display'
 import { BrickGameControls } from '@/components/devices/brick-game/components/controls'
-import { BrickGameButtons } from '@/components/devices/brick-game/types'
 import styles from './styles.module.scss'
+import {BrickGameButtonHandlers} from '@/components/devices/brick-game/types'
 
 interface Props {
-  buttonHandlers: Partial<Record<BrickGameButtons, () => void>>;
+  buttonHandlers: BrickGameButtonHandlers;
   matrix: boolean[][];
 }
 

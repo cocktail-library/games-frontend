@@ -30,5 +30,5 @@ export const getBrickGameButtonListeners = (
     [BrickGameButtons.RIGHT]: () => (gameModel.direction = Direction.RIGHT),
     [BrickGameButtons.START_PAUSE]: onPause,
     [BrickGameButtons.RESET]: onReset,
-  } as Partial<Record<BrickGameButtons, () => void>>
+  } as BrickGameButtonHandlers
 }

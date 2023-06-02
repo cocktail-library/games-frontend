@@ -10,5 +10,7 @@ export enum BrickGameButtons {
   RESET = 'reset',
 }
 
+export type BrickGameButtonHandlers = Partial<Record<BrickGameButtons, () => void>>
+
 export const MAX_ROW_COUNT = 22
 export const MAX_COLUMN_COUNT = 10
