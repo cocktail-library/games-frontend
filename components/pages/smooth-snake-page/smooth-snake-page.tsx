@@ -1,9 +1,9 @@
-import { FC, useEffect, useState } from 'react';
-import { SmoothSnakeModel } from './game/smooth-snake.model';
-import { SmoothSnakeView } from './game/smooth-snake.view';
-import { keyDownListener } from './game/smooth-snake.controller';
+import { FC, useEffect, useState } from 'react'
+import { SmoothSnakeModel } from './game/smooth-snake.model'
+import { SmoothSnakeView } from './game/smooth-snake.view'
+import { keyDownListener } from './game/smooth-snake.controller'
 
-const msPerFrame = 50;
+const msPerFrame = 50
 
 const fieldSize = {
   x: 600,
@@ -25,7 +25,7 @@ export const SmoothSnakePage: FC = () => {
 
     const interval = setInterval(() => {
       setTick((tick) => ({
-        current: tick.current + 1
+        current: tick.current + 1,
       }))
     }, msPerFrame)
     const listener = keyDownListener(newGameModel)
@@ -41,5 +41,5 @@ export const SmoothSnakePage: FC = () => {
     gameModel?.proceedNextTick()
   }, [tick])
 
-  return <SmoothSnakeView gameModel={gameModel} width={fieldSize.x} height={fieldSize.y} tick={tick}/>
+  return <SmoothSnakeView gameModel={gameModel} width={fieldSize.x} height={fieldSize.y} tick={tick} />
 }

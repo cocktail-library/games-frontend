@@ -1,12 +1,12 @@
-import { TileType } from '@/components/pages/snake-page/game/types';
-import { FC } from 'react';
-import styles from './tile.module.scss';
-import cn from 'classnames';
+import { TileType } from '@/components/pages/snake-page/game/types'
+import { FC } from 'react'
+import styles from './tile.module.scss'
+import cn from 'classnames'
 
 interface Props {
-  type: TileType
-  distanceFromStart: number | null,
-  maxDistance: number | null,
+  type: TileType;
+  distanceFromStart: number | null;
+  maxDistance: number | null;
 }
 
 export const Tile: FC<Props> = ({ type, distanceFromStart, maxDistance }) => {
@@ -23,14 +23,14 @@ export const Tile: FC<Props> = ({ type, distanceFromStart, maxDistance }) => {
     }
   }
 
-  return <div className={cn(
-    styles.tile,
-    {
-      [styles.appleTile]: type === TileType.APPLE,
-    },
-  )}
-    style={getStyleByDistance(distanceFromStart, maxDistance)}
-  >
-    {/*{type}*/}
-  </div>
+  return (
+    <div
+      className={cn(styles.tile, {
+        [styles.appleTile]: type === TileType.APPLE,
+      })}
+      style={getStyleByDistance(distanceFromStart, maxDistance)}
+    >
+      {/*{type}*/}
+    </div>
+  )
 }

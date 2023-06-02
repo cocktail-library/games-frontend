@@ -1,3 +1,18 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "import/newline-after-import": 2,
+    "@next/next/no-img-element": "off",
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "react-hooks/exhaustive-deps": "off",
+    "@typescript-eslint/no-unused-vars": "error"
+  }
 }

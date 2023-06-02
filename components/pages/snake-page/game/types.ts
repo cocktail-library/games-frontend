@@ -8,7 +8,7 @@ export enum Direction {
   UP = 'up',
   DOWN = 'down',
   LEFT = 'left',
-  RIGHT = 'right'
+  RIGHT = 'right',
 }
 
 export interface Point {
@@ -16,4 +16,4 @@ export interface Point {
   y: number;
 }
 
-export type Field = TileType[][]
+export type Field = TileType[][];

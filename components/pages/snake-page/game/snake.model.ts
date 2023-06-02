@@ -1,16 +1,12 @@
-import { Direction, Field, Point, TileType } from '@/components/pages/snake-page/game/types';
+import { Direction, Field, Point, TileType } from '@/components/pages/snake-page/game/types'
 
 export class SnakeGameModel {
-  private _applePosition: Point | null = null;
-  private _snake: Point[];
-  private _gameEnded: boolean = false;
-  private _isDirectionModified: boolean = false;
+  private _applePosition: Point | null = null
+  private _snake: Point[]
+  private _gameEnded = false
+  private _isDirectionModified = false
 
-  constructor(
-    private _direction: Direction,
-    private _originalField: Field,
-    snakeHeadPosition: Point
-  ) {
+  constructor(private _direction: Direction, private _originalField: Field, snakeHeadPosition: Point) {
     this._snake = [snakeHeadPosition]
     this._applePosition = this.getNewApplePosition()
   }
@@ -25,26 +21,25 @@ export class SnakeGameModel {
   private applyMoveDirections: Record<Direction, (point: Point, fieldHeight: number, fieldWidth: number) => Point> = {
     [Direction.LEFT]: (point: Point, fieldHeight: number, fieldWidth: number) => ({
       x: (point.x + fieldWidth - 1) % fieldWidth,
-      y: point.y
+      y: point.y,
     }),
     [Direction.RIGHT]: (point: Point, fieldHeight: number, fieldWidth: number) => ({
       x: (point.x + 1) % fieldWidth,
-      y: point.y
+      y: point.y,
     }),
-    [Direction.UP]: (point: Point, fieldHeight: number, fieldWidth: number) => ({
+    [Direction.UP]: (point: Point, fieldHeight: number) => ({
       x: point.x,
-      y: (point.y + fieldHeight - 1) % fieldHeight
+      y: (point.y + fieldHeight - 1) % fieldHeight,
     }),
-    [Direction.DOWN]: (point: Point, fieldHeight: number, fieldWidth: number) => ({
+    [Direction.DOWN]: (point: Point, fieldHeight: number) => ({
       x: point.x,
-      y: (point.y + 1) % fieldHeight
+      y: (point.y + 1) % fieldHeight,
     }),
   }
 
-
-  public proceedNextTick () {
+  public proceedNextTick() {
     if (this._gameEnded || !this._snake.length) {
-      return;
+      return
     }
     const applyMoveFunction = this.applyMoveDirections[this._direction]
 
@@ -61,7 +56,7 @@ export class SnakeGameModel {
         this._applePosition = this.getNewApplePosition()
         break
       default:
-        this._gameEnded = true;
+        this._gameEnded = true
         break
     }
     this._isDirectionModified = false

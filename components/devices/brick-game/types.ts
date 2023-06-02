@@ -7,7 +7,7 @@ export enum BrickGameButtons {
   ON_OFF = 'on_off',
   START_PAUSE = 'start_pause',
   SOUND = 'sound',
-  RESET = 'reset'
+  RESET = 'reset',
 }
 
 export const MAX_ROW_COUNT = 22
