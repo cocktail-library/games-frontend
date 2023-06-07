@@ -17,11 +17,10 @@ export const BrickGame: FC<Props> = ({ buttonHandlers, matrix }) => {
       <div className={styles.displayWrapper}>
         <BrickGameDisplay matrix={matrix} />
       </div>
-      <BrickGameShell>
-        <g transform={'translate(43, 598)'}>
-          <BrickGameControls buttonHandlers={buttonHandlers} />
-        </g>
-      </BrickGameShell>
+      <BrickGameShell />
+      <div className={styles.controlsWrapper}>
+        <BrickGameControls buttonHandlers={buttonHandlers} />
+      </div>
     </div>
   )
 }

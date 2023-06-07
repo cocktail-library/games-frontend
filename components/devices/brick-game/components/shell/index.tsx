@@ -1,11 +1,7 @@
-import React, { FC, ReactNode } from 'react'
+import React, { FC } from 'react'
 import styles from './styles.module.scss'
 
-interface Props {
-  children: ReactNode;
-}
-
-export const BrickGameShell: FC<Props> = ({ children }) => {
+export const BrickGameShell: FC = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -838,7 +834,6 @@ export const BrickGameShell: FC<Props> = ({ children }) => {
           <path fill="#5C86D9" d="M0 417h421v120H0z" />
         </g>
       </g>
-      {children}
       <defs>
         <filter
           id="BrickGameShell__b"
