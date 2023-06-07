@@ -37,24 +37,6 @@ export const DisplayCanvas: FC<Props> = ({ matrix }) => {
         }
       }
     }
-    // if (fieldData.apple) {
-    //   context.fillStyle = 'orangered'
-    //   context.strokeStyle = 'black'
-    //   context.beginPath();
-    //   context.arc(fieldData.apple.x, fieldData.apple.y, 10, 0, 2 * Math.PI);
-    //   context.fill()
-    //   context.stroke()
-    // }
-    //
-    //
-    // context.lineWidth = 5;
-    // context.strokeStyle = 'green'
-    // context.beginPath()
-    // context.moveTo(fieldData.snake[0].x, fieldData.snake[0].y)
-    // for (let i = 1; i < fieldData.snake.length; i++) {
-    //   context.lineTo(fieldData.snake[i].x, fieldData.snake[i].y)
-    // }
-    // context.stroke()
   }, [matrix, context])
 
   return (

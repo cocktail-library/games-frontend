@@ -834,974 +834,974 @@ export const BrickGameShell: FC = () => {
           <path fill="#5C86D9" d="M0 417h421v120H0z" />
         </g>
       </g>
-      <defs>
-        <filter
-          id="BrickGameShell__b"
-          width={421}
-          height={1026}
-          x={0}
-          y={0}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset dy={5} />
-          <feGaussianBlur stdDeviation={5} />
-          <feComposite in2="hardAlpha" k2={-1} k3={1} operator="arithmetic" />
-          <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" />
-          <feBlend in2="shape" result="effect1_innerShadow_9_972" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feMorphology in="SourceAlpha" radius={4} result="effect2_innerShadow_9_972" />
-          <feOffset dy={4} />
-          <feGaussianBlur stdDeviation={5} />
-          <feComposite in2="hardAlpha" k2={-1} k3={1} operator="arithmetic" />
-          <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0" />
-          <feBlend in2="effect1_innerShadow_9_972" result="effect2_innerShadow_9_972" />
-        </filter>
-        <filter
-          id="BrickGameShell__d"
-          width={16}
-          height={16}
-          x={336}
-          y={61}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__f"
-          width={16}
-          height={16}
-          x={357}
-          y={61}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__h"
-          width={16}
-          height={16}
-          x={336}
-          y={82}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__j"
-          width={16}
-          height={16}
-          x={357}
-          y={82}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__l"
-          width={16}
-          height={16}
-          x={39}
-          y={276}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__n"
-          width={16}
-          height={16}
-          x={60}
-          y={297}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__p"
-          width={16}
-          height={16}
-          x={39}
-          y={297}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__r"
-          width={16}
-          height={16}
-          x={39}
-          y={318}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__t"
-          width={16}
-          height={16}
-          x={39}
-          y={276}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__v"
-          width={16}
-          height={16}
-          x={60}
-          y={297}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__x"
-          width={16}
-          height={16}
-          x={39}
-          y={297}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__z"
-          width={16}
-          height={16}
-          x={60}
-          y={339}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__B"
-          width={16}
-          height={16}
-          x={39}
-          y={339}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__D"
-          width={16}
-          height={16}
-          x={60}
-          y={60}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__F"
-          width={16}
-          height={16}
-          x={60}
-          y={81}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__H"
-          width={16}
-          height={16}
-          x={39}
-          y={81}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__J"
-          width={16}
-          height={16}
-          x={39}
-          y={102}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__L"
-          width={16}
-          height={16}
-          x={336}
-          y={119}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__N"
-          width={16}
-          height={16}
-          x={357}
-          y={140}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__P"
-          width={16}
-          height={16}
-          x={336}
-          y={140}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__R"
-          width={16}
-          height={16}
-          x={336}
-          y={161}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__T"
-          width={16}
-          height={16}
-          x={336}
-          y={119}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__V"
-          width={16}
-          height={16}
-          x={357}
-          y={140}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__X"
-          width={16}
-          height={16}
-          x={336}
-          y={140}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__Z"
-          width={16}
-          height={16}
-          x={357}
-          y={182}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__ab"
-          width={16}
-          height={16}
-          x={336}
-          y={182}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__ad"
-          width={16}
-          height={16}
-          x={336}
-          y={219}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__af"
-          width={16}
-          height={16}
-          x={357}
-          y={240}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__ah"
-          width={16}
-          height={16}
-          x={336}
-          y={240}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aj"
-          width={16}
-          height={16}
-          x={336}
-          y={261}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__al"
-          width={16}
-          height={16}
-          x={336}
-          y={219}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__an"
-          width={16}
-          height={16}
-          x={357}
-          y={240}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__ap"
-          width={16}
-          height={16}
-          x={336}
-          y={240}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__ar"
-          width={16}
-          height={16}
-          x={336}
-          y={261}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__at"
-          width={16}
-          height={16}
-          x={39}
-          y={139}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__av"
-          width={16}
-          height={16}
-          x={60}
-          y={160}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__ax"
-          width={16}
-          height={16}
-          x={39}
-          y={160}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__az"
-          width={16}
-          height={16}
-          x={39}
-          y={181}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aB"
-          width={16}
-          height={16}
-          x={39}
-          y={139}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aD"
-          width={16}
-          height={16}
-          x={60}
-          y={160}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aF"
-          width={16}
-          height={16}
-          x={39}
-          y={160}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aH"
-          width={16}
-          height={16}
-          x={39}
-          y={181}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aJ"
-          width={16}
-          height={16}
-          x={39}
-          y={218}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aL"
-          width={16}
-          height={16}
-          x={60}
-          y={218}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aN"
-          width={16}
-          height={16}
-          x={39}
-          y={239}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aP"
-          width={16}
-          height={16}
-          x={60}
-          y={239}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aR"
-          width={16}
-          height={16}
-          x={357}
-          y={298}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aT"
-          width={16}
-          height={16}
-          x={357}
-          y={319}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aV"
-          width={16}
-          height={16}
-          x={336}
-          y={319}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aX"
-          width={16}
-          height={16}
-          x={336}
-          y={340}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />
-        </filter>
-        <filter
-          id="BrickGameShell__aY"
-          width={461}
-          height={160}
-          x={-20}
-          y={397}
-          colorInterpolationFilters="sRGB"
-          filterUnits="userSpaceOnUse"
-        >
-          <feFlood floodOpacity={0} result="BackgroundImageFix" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={10} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" />
-          <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset dy={4} />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-          <feBlend in2="effect1_dropShadow_9_972" result="effect2_dropShadow_9_972" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feOffset dy={-4} />
-          <feGaussianBlur stdDeviation={2} />
-          <feComposite in2="hardAlpha" operator="out" />
-          <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" />
-          <feBlend in2="effect2_dropShadow_9_972" result="effect3_dropShadow_9_972" />
-          <feBlend in="SourceGraphic" in2="effect3_dropShadow_9_972" result="shape" />
-          <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-          <feMorphology in="SourceAlpha" radius={10} result="effect4_innerShadow_9_972" />
-          <feOffset />
-          <feGaussianBlur stdDeviation={10} />
-          <feComposite in2="hardAlpha" k2={-1} k3={1} operator="arithmetic" />
-          <feColorMatrix values="0 0 0 0 0.796076 0 0 0 0 0.862269 0 0 0 0 0.945833 0 0 0 0.25 0" />
-          <feBlend in2="shape" result="effect4_innerShadow_9_972" />
-          <feGaussianBlur result="effect5_foregroundBlur_9_972" stdDeviation={5} />
-        </filter>
-        <clipPath id="BrickGameShell__a">
-          <path fill="#fff" d="M0 0h421v1021H0z" />
-        </clipPath>
-      </defs>
+      {/*<defs>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__b"*/}
+      {/*    width={421}*/}
+      {/*    height={1026}*/}
+      {/*    x={0}*/}
+      {/*    y={0}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset dy={5} />*/}
+      {/*    <feGaussianBlur stdDeviation={5} />*/}
+      {/*    <feComposite in2="hardAlpha" k2={-1} k3={1} operator="arithmetic" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="shape" result="effect1_innerShadow_9_972" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feMorphology in="SourceAlpha" radius={4} result="effect2_innerShadow_9_972" />*/}
+      {/*    <feOffset dy={4} />*/}
+      {/*    <feGaussianBlur stdDeviation={5} />*/}
+      {/*    <feComposite in2="hardAlpha" k2={-1} k3={1} operator="arithmetic" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0" />*/}
+      {/*    <feBlend in2="effect1_innerShadow_9_972" result="effect2_innerShadow_9_972" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__d"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={61}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__f"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={357}*/}
+      {/*    y={61}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__h"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={82}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__j"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={357}*/}
+      {/*    y={82}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__l"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={276}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__n"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={60}*/}
+      {/*    y={297}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__p"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={297}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__r"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={318}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__t"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={276}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__v"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={60}*/}
+      {/*    y={297}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__x"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={297}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__z"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={60}*/}
+      {/*    y={339}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__B"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={339}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__D"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={60}*/}
+      {/*    y={60}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__F"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={60}*/}
+      {/*    y={81}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__H"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={81}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__J"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={102}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__L"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={119}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__N"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={357}*/}
+      {/*    y={140}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__P"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={140}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__R"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={161}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__T"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={119}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__V"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={357}*/}
+      {/*    y={140}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__X"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={140}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__Z"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={357}*/}
+      {/*    y={182}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__ab"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={182}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__ad"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={219}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__af"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={357}*/}
+      {/*    y={240}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__ah"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={240}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aj"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={261}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__al"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={219}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__an"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={357}*/}
+      {/*    y={240}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__ap"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={240}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__ar"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={261}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__at"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={139}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__av"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={60}*/}
+      {/*    y={160}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__ax"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={160}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__az"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={181}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aB"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={139}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aD"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={60}*/}
+      {/*    y={160}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aF"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={160}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aH"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={181}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aJ"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={218}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aL"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={60}*/}
+      {/*    y={218}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aN"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={39}*/}
+      {/*    y={239}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aP"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={60}*/}
+      {/*    y={239}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aR"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={357}*/}
+      {/*    y={298}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aT"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={357}*/}
+      {/*    y={319}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aV"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={319}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aX"*/}
+      {/*    width={16}*/}
+      {/*    height={16}*/}
+      {/*    x={336}*/}
+      {/*    y={340}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect1_dropShadow_9_972" result="shape" />*/}
+      {/*  </filter>*/}
+      {/*  <filter*/}
+      {/*    id="BrickGameShell__aY"*/}
+      {/*    width={461}*/}
+      {/*    height={160}*/}
+      {/*    x={-20}*/}
+      {/*    y={397}*/}
+      {/*    colorInterpolationFilters="sRGB"*/}
+      {/*    filterUnits="userSpaceOnUse"*/}
+      {/*  >*/}
+      {/*    <feFlood floodOpacity={0} result="BackgroundImageFix" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={10} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_9_972" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset dy={4} />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="effect1_dropShadow_9_972" result="effect2_dropShadow_9_972" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feOffset dy={-4} />*/}
+      {/*    <feGaussianBlur stdDeviation={2} />*/}
+      {/*    <feComposite in2="hardAlpha" operator="out" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="effect2_dropShadow_9_972" result="effect3_dropShadow_9_972" />*/}
+      {/*    <feBlend in="SourceGraphic" in2="effect3_dropShadow_9_972" result="shape" />*/}
+      {/*    <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />*/}
+      {/*    <feMorphology in="SourceAlpha" radius={10} result="effect4_innerShadow_9_972" />*/}
+      {/*    <feOffset />*/}
+      {/*    <feGaussianBlur stdDeviation={10} />*/}
+      {/*    <feComposite in2="hardAlpha" k2={-1} k3={1} operator="arithmetic" />*/}
+      {/*    <feColorMatrix values="0 0 0 0 0.796076 0 0 0 0 0.862269 0 0 0 0 0.945833 0 0 0 0.25 0" />*/}
+      {/*    <feBlend in2="shape" result="effect4_innerShadow_9_972" />*/}
+      {/*    <feGaussianBlur result="effect5_foregroundBlur_9_972" stdDeviation={5} />*/}
+      {/*  </filter>*/}
+      {/*  <clipPath id="BrickGameShell__a">*/}
+      {/*    <path fill="#fff" d="M0 0h421v1021H0z" />*/}
+      {/*  </clipPath>*/}
+      {/*</defs>*/}
     </svg>
   )
 }
